@@ -1,3 +1,52 @@
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+header {
+	background: #444;
+	padding-top: 10px;
+	height: 70px;
+	font-family: 'Fascinate Inline', cursive;
+	color: white;
+}
+header h3 {
+	color: #fff;
+	line-height: 40px;
+}
+#logo {
+	height: 50px;
+  padding-right: 30px;
+	padding-left: 30px;
+	display: inline-block;
+}
+#company-name {
+  height: 50px;
+  padding-right: 30px;
+	padding-left: 30px;
+	display: inline-block;
+}
+/* Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+nav {
+	width: 100%;
+	background: #444;
+	height: 50px;
+
+}
+nav ul li {
+	display: inline-block;
+	margin-left: 30px;
+	line-height: 40px;
+	list-style-type: none;
+}
+nav.four.columns ul a {
+	color: #fff;
+	text-decoration: none;
+}
+nav.four.columns ul a:hover {
+	color: #a1abd2;
+}
+.active {
+	color: #b1abd2;
+}
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button {

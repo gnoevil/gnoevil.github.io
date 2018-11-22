@@ -42,20 +42,42 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <nav>
     <ul>
-      <a href="index.html"><li class="active">Home</li></a>
+      <a href="index.html"><li>Home</li></a>
       <a href="about.html"><li>About Us</li></a>
-      <a href="contact.html"><li>Contact</li></a>
+      <a href="contact.html"><li class="active">Contact</li></a>
     </ul>
   </nav>
+
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="section hero">
     <div class="container">
       <div class="row">
         <div class="one-half column">
-          <h4 class="hero-heading">Welcome!</h4>
-          <p>Just a simple website from Geno Guerrero using Skeleton</p>
-          <a class="button button-primary" href="http://getskeleton.com">Try Skeleton</a>
+          <h4 class="hero-heading">Learn More!</h4>
+          <form>
+            <div class="row">
+              <div class="six columns">
+                <label for="exampleEmailInput">Your email</label>
+                <input class="u-full-width" type="email" placeholder="myemail@email.com" id="exampleEmailInput">
+              </div>
+              <div class="six columns">
+                <label for="exampleRecipientInput">Reason for contacting</label>
+                <select class="u-full-width" id="exampleRecipientInput">
+                  <option value="Option 1">I want to volunteer!</option>
+                  <option value="Option 2">How do I donate?</option>
+                  <option value="Option 3">Please send me more info.</option>
+                </select>
+              </div>
+            </div>
+            <label for="exampleMessage">Message</label>
+            <textarea class="u-full-width" placeholder="Hi Geno …" id="exampleMessage"></textarea>
+            <label class="example-send-yourself-copy">
+              <input type="checkbox">
+              <span class="label-body">Send a copy to yourself</span>
+            </label>
+            <input class="button-primary" type="submit" value="Submit">
+          </form>
         </div>
         <div class="one-half column">
 
