@@ -14,18 +14,16 @@ header h1 {
 }
 #logo {
   background: url(../images/empower-logo.png) 0px 0px no-repeat;
-	background-size: cover;
+  width: 100%;
 	height: 50px;
   padding-right: 30px;
 	padding-left: 30px;
-	display: inline-block;
+	display: block;
 }
 #company-name {
-  height: 50px;
-  padding-right: 30px;
-	padding-left: 30px;
-	display: inline-block;
+  display: none;
 }
+
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav {
@@ -68,12 +66,12 @@ nav.four.columns ul a:hover {
 }
 #picture {
   background: url(../images/about-hand-medium.jpg) 0px 0px no-repeat;
-  background-size: cover;
-  width: 50%;
-  height: 600px;
+  background-size: contain;
+  width: 100%;
+  height: 200px;
   padding-right: 30px;
   padding-left: 30px;
-  display: inline-block;
+  display: block;
 }
 #about {
   display: inline-block;
@@ -123,14 +121,17 @@ nav.four.columns ul a:hover {
   }
   #picture {
     background: url(../images/about-hand-small.jpg) 0px 0px no-repeat;
-    background-size: cover;
+    width: 50%
     height: 600px;
     padding-right: 30px;
     padding-left: 30px;
-    display: inline;
+    display: inline-block;
   }
   #about {
-    display: inline;
+    display: inline-block;
+  }
+  #logo {
+    display: inline-block;
   }
 }
 
@@ -154,13 +155,12 @@ nav.four.columns ul a:hover {
   }
   #picture {
     background: url(../images/about-hand-small.jpg) 0px 0px no-repeat;
-    background-size: cover;
-    height: 400px;
+    width: 50%;
+    height: 800px;
     padding-right: 30px;
     padding-left: 30px;
     display: inline-block;
   }
-
 }
 
 /* Bigger than 1000 */
