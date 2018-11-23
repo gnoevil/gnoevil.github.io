@@ -7,11 +7,14 @@ header {
 	font-family: 'Fascinate Inline', cursive;
 	color: white;
 }
-header h3 {
+header h1 {
+  font-family: "Roboto";
 	color: #fff;
-	line-height: 40px;
+	line-height: 60px;
 }
 #logo {
+  background: url(../images/bmw-m-series-vector-logo.png) 0px 0px no-repeat;
+	background-size: cover;
 	height: 50px;
   padding-right: 30px;
 	padding-left: 30px;
