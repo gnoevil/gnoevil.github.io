@@ -4,7 +4,7 @@ header {
 	background: #444;
 	padding-top: 10px;
 	height: 70px;
-	font-family: 'Fascinate Inline', cursive;
+	font-family: 'HelveticaNeue';
 	color: white;
 }
 header h1 {
@@ -69,6 +69,7 @@ nav.four.columns ul a:hover {
 #picture {
   background: url(../images/about-hand-medium.jpg) 0px 0px no-repeat;
   background-size: cover;
+  width: 50%;
   height: 600px;
   padding-right: 30px;
   padding-left: 30px;
@@ -83,7 +84,7 @@ nav.four.columns ul a:hover {
 	position: relative;
 	overflow: hidden;
 }
-.intro .type h1 {
+.intro .type .empower {
   font-family: 'Helvetica Neue';
   color: white;
 	position: absolute;
