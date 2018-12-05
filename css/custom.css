@@ -187,8 +187,11 @@ nav.four.columns ul a:hover {
 	padding-left: calc(80px + 8vw);
 }
 .intro .type h1 {
+  background: linear-gradient(#eee, #333);
   background: -webkit-linear-gradient(#eee, #333);
+  background-clip: text;
   -webkit-background-clip: text;
+  text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
 }
 
