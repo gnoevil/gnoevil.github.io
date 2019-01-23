@@ -183,7 +183,7 @@ nav.four.columns ul a:hover {
 	z-index: 2;
 	top: 0px;
 	left: 0px;
-	padding-top: 24vh;
+	/* padding-top: 24vh; */
 	padding-left: calc(80px + 8vw);
 }
 .intro .type h1 {
@@ -275,3 +275,53 @@ nav.four.columns ul a:hover {
   }
 
 }
+
+ /* Chapter 3 CSS */
+#motto {
+  display: inline-block;
+  padding: 50px 15px;
+  height: 100%;
+}
+ #info {
+   display: inline-block;
+   background-color: #444;
+   color: #fff;
+   padding: 50px 15px;
+   text-align: center;
+   height: 100%;
+   top: 0;
+   margin-left: 0;
+ }
+
+ /* details in the black bar */
+
+ #className {
+   text-transform: uppercase;
+   /* text-align: center; */
+   /* font-size: 120%;
+   margin-top: 10px;
+   border-top: 1px solid #fff;
+   border-bottom: 1px solid #fff;
+   padding: 10px 0; */
+ }
+
+ #classRate{
+   text-decoration: line-through;
+   /* display: inline-block;
+   float: left; */
+   /* padding-top: 10px; */
+ }
+
+ #specialRate {
+   /* font-size: 440%; */
+   color: #ffb87a;
+   /* display: inline-block; */
+   /* padding: 10px 0 20px 0;
+   margin: 0; */
+ }
+
+ #offerEnds {
+   text-transform: uppercase;
+   color: #ffb87a;
+   /* font-size: 75%; */
+ }
