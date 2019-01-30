@@ -118,10 +118,11 @@ header h1 {
 
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-nav {
+nav.nine.columns {
 	width: 100%;
 	background: #444;
 	height: 50px;
+  margin-left: 0;
 
 }
 nav ul li {
@@ -130,11 +131,11 @@ nav ul li {
 	line-height: 40px;
 	list-style-type: none;
 }
-nav.four.columns ul a {
+nav.nine.columns ul a {
 	color: #fff;
 	text-decoration: none;
 }
-nav.four.columns ul a:hover {
+nav.nine.columns ul a:hover {
 	color: #a1abd2;
 }
 .active {
