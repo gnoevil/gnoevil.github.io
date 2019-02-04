@@ -59,19 +59,19 @@ h1, h2, h3, h4, h5 {
   font-weight: 800;
 }
 h1 {
-  font-size: 7.2em;
+  font-size: 5em;
   text-transform: uppercase;
   line-height: 1;
   letter-spacing: .1em;
 }
 h2 {
-  font-size: 4.8em;
+  font-size: 3.5em;
   text-transform: uppercase;
   line-height: 1;
   letter-spacing: .1em;
 }
 h3 {
-  font-size: 2.1em;
+  font-size: 2em;
   text-transform: uppercase;
   line-height: 1.1;
   letter-spacing: .06em;
@@ -326,3 +326,25 @@ nav.nine.columns ul a:hover {
    color: #ffb87a;
    /* font-size: 75%; */
  }
+/* Chapter 6 CSS */
+label {
+  color: #fff;
+  display: block;
+  margin: 10px 0 10px 0;
+  font-size: 24px;}
+  select, option {
+    color: black;   
+    font-size: 16px;}
+.selectbox {
+  display: inline;
+}
+.checkbox {
+  display: inline;
+  font-size: 16px;
+}
+#packageHint, #termsHint {
+  color: #fff;
+  text-shadow: -1px 1px 2px #000;}
+
+#terms {
+  margin-top: 30px;}
