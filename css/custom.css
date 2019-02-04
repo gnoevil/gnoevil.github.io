@@ -92,24 +92,24 @@ h5 {
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 header {
-	background: #444;
-	padding-top: 10px;
-	height: 70px;
-	font-family: 'HelveticaNeue';
-	color: white;
+  background: #444;
+  padding-top: 10px;
+  height: 70px;
+  font-family: 'HelveticaNeue';
+  color: white;
 }
 header h1 {
   font-family: "Roboto";
-	color: #fff;
-	line-height: 60px;
+  color: #fff;
+  line-height: 60px;
 }
 #logo {
   background: url(../images/empower-logo.png) 0px 0px no-repeat;
   width: 100%;
-	height: 50px;
+  height: 50px;
   padding-right: 30px;
-	padding-left: 30px;
-	display: block;
+  padding-left: 30px;
+  display: block;
 
 }
 #company-name {
@@ -119,27 +119,27 @@ header h1 {
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav.nine.columns {
-	width: 100%;
-	background: #444;
-	height: 50px;
+  width: 100%;
+  background: #444;
+  height: 50px;
   margin-left: 0;
 
 }
 nav ul li {
-	display: inline-block;
-	margin-left: 30px;
-	line-height: 40px;
-	list-style-type: none;
+  display: inline-block;
+  margin-left: 30px;
+  line-height: 40px;
+  list-style-type: none;
 }
 nav.nine.columns ul a {
-	color: #fff;
-	text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 nav.nine.columns ul a:hover {
-	color: #a1abd2;
+  color: #a1abd2;
 }
 .active {
-	color: #b1abd2;
+  color: #b1abd2;
 }
 
 
@@ -172,20 +172,20 @@ nav.nine.columns ul a:hover {
   display: inline-block;
 }
 .intro {
-	height: 100vh;
-	width: 100vw;
-	position: relative;
-	overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
 }
 .intro .type {
   font-family: 'Helvetica Neue';
   color: white;
-	position: absolute;
-	z-index: 2;
-	top: 0px;
-	left: 0px;
-	/* padding-top: 24vh; */
-	padding-left: calc(80px + 8vw);
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+  /* padding-top: 24vh; */
+  padding-left: calc(80px + 8vw);
 }
 .intro .type h1 {
   background: linear-gradient(#eee, #333);
@@ -197,17 +197,17 @@ nav.nine.columns ul a:hover {
 }
 
 .intro video{
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-	object-fit: cover;
-	position: absolute;
-	/* top: 0px;
-	left: 0px; */
-	z-index: 1;
-	filter: grayscale(1) brightness(.22) contrast(.9);
-	background-position: center;
-	/* background:transparent url('video/street/poster.png') no-repeat 0 0; */
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  position: absolute;
+  /* top: 0px;
+  left: 0px; */
+  z-index: 1;
+  filter: grayscale(1) brightness(.22) contrast(.9);
+  background-position: center;
+  /* background:transparent url('video/street/poster.png') no-repeat 0 0; */
 }
 /* Bigger than 550 */
 @media (min-width: 550px) {
@@ -277,64 +277,66 @@ nav.nine.columns ul a:hover {
 
 }
 
- /* Chapter 3 CSS */
+/* Chapter 3 CSS */
 #motto {
   display: inline-block;
   padding: 50px 15px;
   height: 100%;
 }
- #info {
-   display: inline-block;
-   background-color: #444;
-   color: #fff;
-   padding: 50px 15px;
-   text-align: center;
-   height: 100%;
-   top: 0;
-   margin-left: 0;
- }
+#info {
+  display: inline-block;
+  background-color: #444;
+  color: #fff;
+  padding: 50px 15px;
+  text-align: center;
+  height: 100%;
+  top: 0;
+  margin-left: 0;
+}
 
- /* details in the black bar */
+/* details in the black bar */
 
- #className {
-   text-transform: uppercase;
-   /* text-align: center; */
-   /* font-size: 120%;
-   margin-top: 10px;
-   border-top: 1px solid #fff;
-   border-bottom: 1px solid #fff;
-   padding: 10px 0; */
- }
+#className {
+  text-transform: uppercase;
+  /* text-align: center; */
+  /* font-size: 120%;
+  margin-top: 10px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 10px 0; */
+}
 
- #classRate{
-   text-decoration: line-through;
-   /* display: inline-block;
-   float: left; */
-   /* padding-top: 10px; */
- }
+#classRate{
+  text-decoration: line-through;
+  /* display: inline-block;
+  float: left; */
+  /* padding-top: 10px; */
+}
 
- #specialRate {
-   /* font-size: 440%; */
-   color: #ffb87a;
-   /* display: inline-block; */
-   /* padding: 10px 0 20px 0;
-   margin: 0; */
- }
+#specialRate {
+  /* font-size: 440%; */
+  color: #ffb87a;
+  /* display: inline-block; */
+  /* padding: 10px 0 20px 0;
+  margin: 0; */
+}
 
- #offerEnds {
-   text-transform: uppercase;
-   color: #ffb87a;
-   /* font-size: 75%; */
- }
+#offerEnds {
+  text-transform: uppercase;
+  color: #ffb87a;
+  /* font-size: 75%; */
+}
 /* Chapter 6 CSS */
 label {
   color: #fff;
   display: block;
   margin: 10px 0 10px 0;
-  font-size: 24px;}
-  select, option {
-    color: black;   
-    font-size: 16px;}
+  font-size: 24px;
+}
+select, option {
+  color: black;
+  font-size: 16px;
+}
 .selectbox {
   display: inline;
 }
@@ -346,5 +348,5 @@ label {
   color: #fff;
   text-shadow: -1px 1px 2px #000;}
 
-#terms {
-  margin-top: 30px;}
+  #terms {
+    margin-top: 30px;}
