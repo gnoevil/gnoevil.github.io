@@ -349,4 +349,14 @@ select, option {
   text-shadow: -1px 1px 2px #000;}
 
   #terms {
-    margin-top: 30px;}
+    margin-top: 30px;
+  }
+
+  /* Chapter 7 & 8 CSS */
+
+  #bmw {
+    width: 400px;
+    height: 640px;
+    background-image: url("../images/empower-logo.png");
+    background-repeat: repeat-x;
+  }
