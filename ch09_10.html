@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
 <head>
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>MIT 249 ch9 &amp; ch10-API</title>
+
   <meta name="description" content="MIT 249 Homework webpage">
   <meta name="author" content="Geno Guerrero">
 
@@ -28,7 +29,8 @@
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+  <script src="js/ch09_10.js"></script>
 </head>
 <body>
   <!-- Header
@@ -57,8 +59,15 @@
       <main class="intro">
 
  			<section class="type">
-
-
+        <h2>Buy tickets</h2>
+        <div class="two-thirds columns">
+          <table ng-controller="TicketCtrl">
+            <tr><td>Item:</td><td>{{ description }}</td></tr>
+            <tr><td>Cost:</td><td>${{ cost }}</td></tr>
+            <tr><td>Qty:</td><td><input class="quanity" type="number" ng-model="qty"></td></tr>
+            <tr><td>Subtotal:</td><td>{{qty * cost | currency}}</td></tr>
+          </table>
+        </div>
 
  			</section>
       <section class="video">

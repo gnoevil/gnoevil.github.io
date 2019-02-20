@@ -360,3 +360,35 @@ select, option {
     background-image: url("../images/empower-logo.png");
     background-repeat: repeat-x;
   }
+
+/* Chapter 9 & 10 CSS */
+input, textarea {
+  border-radius: 3px;
+  border: none;
+  box-sizing: border-box;
+  background-color: #efefef;
+  font-size: 100%;
+  width: 100%;
+  padding: 0.3em 0.5em 0.3em 0.5em;
+}
+
+textarea {
+  height: 5em;
+  line-height: 1.4em;
+}
+table {margin-top: 3em;
+}
+th {
+  text-align: left;
+  text-transform: uppercase;
+  border-bottom: 1px solid #999;
+  font-size: 120%;
+}
+td {
+  font-size: 100%;
+  padding: 2em;
+  vertical-align: middle;
+}
+table.ng-scope  {
+  min-width: 11em;
+}
